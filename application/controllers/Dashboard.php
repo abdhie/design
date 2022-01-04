@@ -8,6 +8,7 @@ class Dashboard extends CI_Controller {
 		if (!$this->users->access_page()){
 			redirect('auth');
 		}
+// 		$this->load->library('users');
 	}
 
 	public function index()
