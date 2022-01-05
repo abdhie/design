@@ -5,10 +5,10 @@ class Dashboard extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		if (!$this->users->access_page()){
-			redirect('auth');
-		}
-// 		$this->load->library('users');
+		// if (!$this->users->access_page()){
+		// 	redirect('auth');
+		// }
+
 	}
 
 	public function index()
