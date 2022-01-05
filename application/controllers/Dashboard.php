@@ -7,9 +7,8 @@ class Dashboard extends CI_Controller {
 		parent::__construct();
 		// if (!$this->users->access_page()){
 		// 	redirect('auth');
-		// }
-
 	}
+
 
 	public function index()
 	{
